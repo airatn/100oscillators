@@ -7,11 +7,6 @@
 
 Данная модель, для случаев незакрепленных концов описывается следующей системой дифференциальных уравнений:
 
-$$\begincases}
-  \ddot q_1 = G\cdot m_2\frac{q_2-q_1}{|q_2-q_1|^3} + m_3\frac{q_3-q_1}{|q_3-q_1|^3}\\
-  \ddot q_2 = G\cdot m_1\frac{q_1-q_2}{|q_1-q_2|^3} + m_3\frac{q_3-q_2}{|q_3-q_2|^3}\\
-  \ddot q_3 = G\cdot m_1\frac{q_1-q_3}{|q_1-q_3|^3} + m_2\frac{q_2-q_3}{|q_2-q_3|^3}
-\end{cases}$$
 
 $$\begin{cases}
   \ddot y_1\cdot m_1+c_1\cdot\dot y_1+k_1\cdot \left(y_1-y_2\right)=0\\
@@ -19,4 +14,4 @@ $$\begin{cases}
   ...\\
   \ddot y_99\cdot m_99+c_99\cdot\dot y_99+k_99\cdot \left(y_99-y_98\right)+k_100\cdot\left(y_99-y_100\right)=0\\
   \ddot y_100\cdot m_100+c_100\cdot\dot y_100+k_100\cdot \left(y_100-y_99\right)=0
-\endcases}$$
+\end{cases}$$
