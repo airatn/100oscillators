@@ -14,7 +14,9 @@ $$\begin{cases}
 \end{cases}$$
 
 $$\begin{cases}
-  \ddot{y}_{1}\cdot m_{1}+c_{1}\cdot\dot{y}_{1}+k_{1}\cdot \left(y_{1}-y_{2}\right)=0}&{}\\
+  \ddot y_1\cdot m_1+c_1\cdot\dot y_1+k_1\cdot \left(y_1-y_2\right)=0\\
+\end{cases}$$
+  
   \ddot{y}_{2}\cdot m_{2}+c_{2}\cdot\dot{y}_{2}+k_{1}\cdot \left(y_{2}-y_{1}\right)+k_{2}\cdot\left(y_{2}-y_{3}\right)=0}&{}\\
   {...}&{}\\
   \ddot{y}_{99}\cdot m_{99}+c_{99}\cdot\dot{y}_{99}+k_{99}\cdot \left(y_{99}-y_{98}\right)+k_{100}\cdot\left(y_{99}-y_{100}\right)=0}&{}\\
