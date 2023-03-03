@@ -3,5 +3,12 @@
 
 Поперечная волна - это форма волны, в которой частицы среды колеблются относительно своего среднего положения, перпендикулярного направлению движения волны - на рисунке показаны стрелками. Среда состоит из [тел связанных только с соседними узлами пружинами](https://en.wikipedia.org/wiki/Damping)  - упругими объектами, накапливающих механическую энергию.
 
-<img src="https://drive.google.com/uc?export=view&id=1V4N2aD6LOos3hWvFA3T09kTQWGxnWALb" width="800">
+<img src="https://drive.google.com/uc?export=view&id=1V4N2aD6LOos3hWvFA3T09kTQWGxnWALb" width="900">
 
+Данная модель, для случаев незакрепленных концов описывается следующей системой дифференциальных уравнений:
+
+{\ddot{y}_{1}\cdot m_{1}+c_{1}\cdot\dot{y}_{1}+k_{1}\cdot \left(y_{1}-y_{2}\right)=0}&{}\\
+{\ddot{y}_{2}\cdot m_{2}+c_{2}\cdot\dot{y}_{2}+k_{1}\cdot \left(y_{2}-y_{1}\right)+k_{2}\cdot\left(y_{2}-y_{3}\right)=0}&{}\\
+{...}&{}\\
+{\ddot{y}_{99}\cdot m_{99}+c_{99}\cdot\dot{y}_{99}+k_{99}\cdot \left(y_{99}-y_{98}\right)+k_{100}\cdot\left(y_{99}-y_{100}\right)=0}&{}\\
+{\ddot{y}_{100}\cdot m_{100}+c_{100}\cdot\dot{y}_{100}+k_{100}\cdot \left(y_{100}-y_{99}\right)=0}&{}\\
