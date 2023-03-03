@@ -7,7 +7,7 @@
 
 Данная модель, для случаев незакрепленных концов описывается следующей системой дифференциальных уравнений:
 
-$$\begin{cases}
+$$\begincases}
   \ddot q_1 = G\cdot m_2\frac{q_2-q_1}{|q_2-q_1|^3} + m_3\frac{q_3-q_1}{|q_3-q_1|^3}\\
   \ddot q_2 = G\cdot m_1\frac{q_1-q_2}{|q_1-q_2|^3} + m_3\frac{q_3-q_2}{|q_3-q_2|^3}\\
   \ddot q_3 = G\cdot m_1\frac{q_1-q_3}{|q_1-q_3|^3} + m_2\frac{q_2-q_3}{|q_2-q_3|^3}
@@ -15,10 +15,8 @@ $$\begin{cases}
 
 $$\begin{cases}
   \ddot y_1\cdot m_1+c_1\cdot\dot y_1+k_1\cdot \left(y_1-y_2\right)=0\\
-\end{cases}$$
-  
-  \ddot{y}_{2}\cdot m_{2}+c_{2}\cdot\dot{y}_{2}+k_{1}\cdot \left(y_{2}-y_{1}\right)+k_{2}\cdot\left(y_{2}-y_{3}\right)=0}&{}\\
-  {...}&{}\\
-  \ddot{y}_{99}\cdot m_{99}+c_{99}\cdot\dot{y}_{99}+k_{99}\cdot \left(y_{99}-y_{98}\right)+k_{100}\cdot\left(y_{99}-y_{100}\right)=0}&{}\\
-  \ddot{y}_{100}\cdot m_{100}+c_{100}\cdot\dot{y}_{100}+k_{100}\cdot \left(y_{100}-y_{99}\right)=0}&{}
-\end{cases}$$
+  \ddot y_2\cdot m_2+c_2\cdot\dot y_2+k_1\cdot \left(y_2-y_1\right)+k_2\cdot\left(y_2-y_3\right)=0\\
+  ...\\
+  \ddot y_99\cdot m_99+c_99\cdot\dot y_99+k_99\cdot \left(y_99-y_98\right)+k_100\cdot\left(y_99-y_100\right)=0\\
+  \ddot y_100\cdot m_100+c_100\cdot\dot y_100+k_100\cdot \left(y_100-y_99\right)=0
+\endcases}$$
