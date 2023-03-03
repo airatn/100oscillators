@@ -12,6 +12,6 @@ $$\begin{cases}
   \ddot y_1\cdot m_1+c_1\cdot\dot y_1+k_1\cdot \left(y_1-y_2\right)=0\\
   \ddot y_2\cdot m_2+c_2\cdot\dot y_2+k_1\cdot \left(y_2-y_1\right)+k_2\cdot\left(y_2-y_3\right)=0\\
   ...\\
-  \ddot y_{99}\cdot m_99+c_99\cdot\dot y_99+k_99\cdot \left(y_99-y_98\right)+k_100\cdot\left(y_99-y_100\right)=0\\
-  \ddot y_100\cdot m_100+c_100\cdot\dot y_100+k_100\cdot \left(y_100-y_99\right)=0
+  \ddot y_{99}\cdot m_{99}+c_{99}\cdot\dot y_{99}+k_{99}\cdot \left(y_{99}-y_{98}\right)+k_{100}\cdot\left(y_{99}-y_{100}\right)=0\\
+  \ddot y_{100}\cdot m_{100}+c_{100}\cdot\dot y_{100}+k_{100}\cdot \left(y_{100}-y_{99}\right)=0
 \end{cases}$$
