@@ -5,8 +5,7 @@
 
 <img src="https://drive.google.com/uc?export=view&id=1V4N2aD6LOos3hWvFA3T09kTQWGxnWALb" width="900">
 
-Данная модель, для случаев незакрепленных концов описывается следующей системой дифференциальных уравнений:
-
+Данная модель, для случаев с незакрепленными концами описывается следующей системой дифференциальных уравнений:
 
 $$\begin{cases}
   \ddot y_1\cdot m_1+c_1\cdot\dot y_1+k_1\cdot \left(y_1-y_2\right)=0\\
@@ -15,3 +14,8 @@ $$\begin{cases}
   \ddot y_{99}\cdot m_{99}+c_{99}\cdot\dot y_{99}+k_{99}\cdot \left(y_{99}-y_{98}\right)+k_{100}\cdot\left(y_{99}-y_{100}\right)=0\\
   \ddot y_{100}\cdot m_{100}+c_{100}\cdot\dot y_{100}+k_{100}\cdot \left(y_{100}-y_{99}\right)=0
 \end{cases}$$
+
+Ниже приводим пример поведением модели распространения волны в системе из 100 одинаковых взаимосвязанных тел с незакрепленными концами без затухания. Запуск осуществляется за счет передачи импульса первому телу в цепочке.
+
+<img src="https://drive.google.com/uc?export=view&id=1OHmDE39vLmX_EVzsprOqMeteZcA1uZYE" width="900">
+
